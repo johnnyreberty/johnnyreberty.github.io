@@ -101,6 +101,15 @@
     margin: 0 5%;
 }
 
+@media(max-width: 800px){
+    .d-2-culumns{
+        display: grid;
+        grid-template-columns: [first] 100% ;
+    }   
+    .mt-sm-2{
+        margin-top: 2rem;
+    }
+}
 /* ---------------------------------- flex ---------------------------------- */
 .d-flex{
     display: flex;
