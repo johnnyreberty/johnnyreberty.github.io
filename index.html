@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/fonts/feather/iconfont.css">
+    <title>Portifólio</title>
+</head>
+<body>
+    <section class="body">
+        <header class="header">
+            <main class="main-header">
+                <h1>Portfólio</h1> 
+                <p>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Nova Cruz</p>
+                <div class="img-lm"></div>
+                <button class="button-menu" id="button-menu" onclick="openMenu(this.id)"><i class="feather icon-menu"></i></button>
+                <nav id="menu-items" class="menu d-flex d-flex-cullumn d-none">
+                    <ul class="menu-list">
+                        <div class="d-flex d-flex-cullumn item-text-hover">
+                            <li class="menu-iten active" toggle-pages="home" title="Home"><i target-father="home" class="feather icon-home"></i></li>
+                            <span class="item-text">Home</span>
+                        </div>
+                        <div class="d-flex d-flex-cullumn item-text-hover">
+                            <li class="menu-iten" toggle-pages="content" title="Conteúdo"><i target-father="content" class="feather icon-layers"></i></li>
+                            <span class="item-text">Conteúdo</span>
+                        </div>
+                        <div class="d-flex d-flex-cullumn item-text-hover">
+                            <li class="menu-iten" toggle-pages="discipline" title="Disciplina"><i target-father="discipline" class="feather icon-book"></i></li>
+                            <span class="item-text">Disciplina</span>
+                        </div>
+                        <div class="d-flex d-flex-cullumn item-text-hover">
+                            <li class="menu-iten" toggle-pages="working" title="Trabalhos"><i target-father="working" class="feather icon-wind"></i></li>
+                            <span class="item-text">Trabalhos</span>
+                        </div>
+                        <div class="d-flex d-flex-cullumn item-text-hover">
+                            <li class="menu-iten" toggle-pages="films" title="Filmes"><i target-father="films" class="feather icon-film"></i></li>
+                            <span class="item-text">Filmes</span>
+                        </div>
+                    </ul>
+                </nav>
+            </main>
+            <nav class="navbar">menu</nav>
+            <nav class="my-person">
+                <div class="img"></div>
+                <div class="description">
+                    <h2>Johnny Reberty Alves Oliveira</h2>
+                    <p>Aluno do 4° ano do curso técnico em informática</p>
+                </div>
+            </nav>
+        </header>
+        <main class="main card-with-image">
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                               sessão HOME                               -->
+<!-- ----------------------------------------------------------------------- -->
+            <section id="home" class="d-2-culumns animate">
+                <div class="card ml-1 mr-1">
+                    <div class="urlImage contain" style="--urlImage: url('images/portifolio.png')"></div>
+                </div>
+                <div class="text-font">
+                    <p class="d-flex d-flex-cullumn">
+                        <span class="font-bold">O que entrará aqui?</span>
+                        <span class="font-normal">
+                            Em outras palavras. Bem Vindo! Ao portfólio dos conteúdos 
+                            adquiridos em aula. Aqui você encontrará citações, conteúdo e 
+                            analogias com embasamento na vida real e profisisonal levando em
+                            consideração o conhecimento administrativo abordado em sala de aula.
+                        </span>
+                    </p>
+                </div>
+            </section>
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                            sessão Conteúdo                             -->
+<!-- ----------------------------------------------------------------------- -->
+            <section id="content" class="d-none animate">
+                <h1 class="title-block">Visão geral dos conteúdos</h1>
+                <div class="ml-1 mr-1 identification-title">
+                    <div class="urlImage contain" style="--urlImage: url('images/conteudo.svg')"></div>
+                </div>
+                <div class="d-2-culumns">
+                    <div class="text-font m-tb-auto">
+                        <p>
+                            Inicialmente, analizamos diversos pontos da administração, como a teoria da administração ciêntífica
+                            por Frederick W. Taylor (1856 1915), entre outros que veremos logo a baixo.
+                        </p>
+                    </div>
+                    <div class="card ml-1 mr-1">
+                        <div class="urlImage contain" style="--urlImage: url('images/ciclo.png')"></div>
+                    </div>
+                </div>
+                
+                <div class="mt-3" style="background-color: var(--white); box-shadow: var(--boxShadow);">
+                    <div class="text-font" style="margin: 0; padding: .1rem .5rem; color: var(--blue2);">
+                        <p>
+                            Abordamos por meio de seminários, várias teorias administrativas, e para relembramos um pouco, 
+                            iniciaremos com o modelo Fordismo de produção; 
+                        </p>
+                        <p>
+                            "O insucesso é apenas uma oportunidade para recomeçar com mais inteligência." - Henry Ford
+                        </p>
+                    </div>
+                </div>
+
+                <!-- ----------------------------------------------------------------------- -->
+                <!--                                Fordismo                                 -->
+                <!-- ----------------------------------------------------------------------- -->
+                <div class="d-2-culumns mt-2">
+                    <div class="card ml-1 mr-1">
+                        <div class="urlImage contain" style="--urlImage: url('images/fordismo.jpg')"></div>
+                    </div>
+                    <div class="text-font m-tb-auto">
+                        <p class="font-bold">Fordismo</p>
+                        <p>
+                            Fordismo é um sistema de produção industrial criado pelo empresário norte-americano Henry Ford, 
+                            fundador da Ford Motor Company, em 1914. Esse sistema foi utilizado em indústrias do mundo todo 
+                            no século 20, principalmente entre as décadas de 1920 e 1970.
+                            Tendo como algumas características:
+                        </p>
+                    </div>
+                </div>
+                <div class="d-2-culumns mt-2">
+                    <div class="text-font m-tb-auto">
+                        <p class="font-bold">Algumas Características</p>
+                        <p>
+                            <ul>
+                                <li>Aumento da produtividade e produção em massa</li>
+                                <li>Fomento ao consumo de massa</li>
+                                <li>Poucas opções para o consumo</li>
+                                <li>Condições de trabalho desgastantes</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="card ml-1 mr-1">
+                        <div class="urlImage contain" style="--urlImage: url('images/fordismo-linha.jpg')"></div>
+                    </div>
+                </div>
+
+                <div class="mt-3" style="background-color: var(--white); box-shadow: var(--boxShadow);">
+                    <div class="text-font" style="margin: 0; padding: .1rem .5rem; color: var(--blue2);">
+                        <p>
+                            Após essa pincelada sobre o Fordismo, mergulharemos em algumas informações sobre 
+                            o sistema vai substitui-lo enquanto modelo industrial vigente a partir da década de 1970.
+                        </p>
+                        <p>
+                            "Custos não existem para serem calculados. Custos existem para serem reduzidos." - Taiichi Ohno
+                        </p>
+                    </div>
+                </div>
+
+                <!-- ----------------------------------------------------------------------- -->
+                <!--                                Toyotismo                                -->
+                <!-- ----------------------------------------------------------------------- -->
+                <div class="d-2-culumns mt-2">
+                    <div class="card ml-1 mr-1">
+                        <div class="urlImage contain" style="--urlImage: url('images/toyotismo.jpg')"></div>
+                    </div>
+                    <div class="text-font m-tb-auto">
+                        <p class="font-bold">Toyotismo</p>
+                        <p>
+                            O Toyotismo foi idealizado pelos engenheiros Taiichi Ohno (1912-1990), Shingeo Shingo 
+                            (1909-1990) e Eiji Toyoda (1913-2013).
+                            Este modelo produtivo foi desenvolvido entre 
+                            1948 e 1975 nas fábricas da montadora japonesa de automóveis Toyota, da qual herdou o nome.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="d-2-culumns mt-2">
+                    <div class="text-font m-tb-auto">
+                        <p class="font-bold">Algumas Características</p>
+                        <p>
+                            <ul>
+                                <li>produção adequada à demanda;</li>
+                                <li>redução dos estoques;</li>
+                                <li>diversificação dos produtos fabricados;</li>
+                                <li>automatização de etapas da produção;</li>
+                                <li>mão de obra muito mais qualificada e multifuncional.</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="card ml-1 mr-1">
+                        <div class="urlImage contain" style="--urlImage: url('images/toyotismo-linha.jpg')"></div>
+                    </div>
+                </div>
+
+                <div class="mt-3" style="background-color: var(--white); box-shadow: var(--boxShadow);">
+                    <div class="text-font" style="margin: 0; padding: .1rem .5rem; color: var(--blue2);">
+                        <p>
+                            Por fim, iremos retomar a ideia sobre o que é a indústria 4.0
+                        </p>
+                    </div>
+                </div>
+
+                <!-- ----------------------------------------------------------------------- -->
+                <!--                              Industia 4.0                               -->
+                <!-- ----------------------------------------------------------------------- -->
+                <div class="d-2-culumns mt-2">
+                    <div class="card ml-1 mr-1">
+                        <div class="urlImage contain" style="--urlImage: url('images/industria4.0.jpg')"></div>
+                    </div>
+                    <div class="text-font m-tb-auto">
+                        <p class="font-bold">Indústria 4.0</p>
+                        <p>
+                            Indústria 4.0 é um conceito que engloba automação e tecnologia 
+                            da informação, além das principais inovações tecnológicas desses campos.
+                            Sendo assim, avaliamos que tal conceito aborda a descentralização do trabalho
+                            humano, sendo "aprimorado" por máquinas, cujo performace e curto benefício mais baixo.
+                        </p>
+                    </div>
+                </div>
+            </section>
+<!-- ----------------------------------------------------------------------- -->
+<!--                            sessão disciplina                            -->
+<!-- ----------------------------------------------------------------------- -->
+            <section id="discipline" class="d-none animate">
+                <h1 class="title-block">Da disciplina para vida</h1>
+                <div class="ml-1 mr-1 identification-title">
+                    <div class="urlImage contain" style="--urlImage: url('images/disciplina.svg')"></div>
+                </div>
+                <div class="d-2-culumns">
+                    <div class="text-font">
+                        <p>
+                            Os conteúdos que adquiri em sala de aula, são adptos do cotidiano em que vivo.
+                            Trabalhando em uma empresa de Análise e Desenvolvimento de sistemas, presenciei/participei
+                            de algumos processos que remetiam a teorias organizacionais da administração, que é natural 
+                            uma boa empresa reter.
+                        </p>
+                    </div>
+                    <div class="card ml-1 mr-1">
+                        <div class="urlImage contain" style="--urlImage: url('images/gestaoProjetoGeral.png')"></div>
+                    </div>
+                </div>
+
+                <div class="d-2-culumns">
+                    <div class="card ml-1 mr-1">
+                        <div class="urlImage contain" style="--urlImage: url('images/gestaoProjeto.png')"></div>
+                    </div>
+                    <div class="text-font">
+                        <p>
+                            Exemplos como em processos de elaboração de um softwere, 
+                            o planejamento prévio juntamente com o levantamento de requisitos, onde são definidas as prioridades.
+                            A diferença entre um gestão de projeto e um lider de um equipe do mesmo, 
+                            cujo pussuem relação com finalidades distintas, embora com o mesmo objetivo.
+                            Controle, sendo expresso em cada análise do/dos processos de desenvolvimento adotado na produção,
+                            reclicando ou mantando fluxos de códigos.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                            sessão trabalhos                             -->
+<!-- ----------------------------------------------------------------------- -->
+            <section id="working" class=" d-none animate">
+                <h1 class="title-block">Trabalhos Realizados</h1>
+                <div class="ml-1 mr-1 identification-title">
+                    <div class="urlImage contain" style="--urlImage: url('images/trabalho.svg')"></div>
+                </div>
+                <div class="d-2-culumns">
+                    <div class="text-font">
+                        <p>
+                            Ao início, estudamos as teorias da administração e seus respectivos
+                            idealizadores, visando compreender os processos organizacionais 
+                            das empresa e meios públicos.
+                            Com um tema emparticular, participei de um grupo encarregado de apresentar
+                            a "Teoria Geral dos Sistemas", idealizada por Karl Ludwig von Bertalanffy,
+                            Biólogo austríaco e publicada entre 1950 e 1968.
+                        </p>
+                    </div>
+                    <div class="card ml-1 mr-1">
+                        <div class="urlImage contain" style="--urlImage: url('images/bertalanffy.png')"></div>
+                    </div>
+                </div>
+                <div class="d-2-culumns">
+                    <div class="card ml-1 mr-1">
+                        <div class="urlImage contain" style="--urlImage: url('images/teoriaGeral.jpg')"></div>
+                    </div>
+                    <div class="text-font">
+                        <p>
+                            O sistema é um conjunto de partes interagentes e interdependentes que, conjuntamente, formam um 
+                            todo unitário com determinado objetivo e efetuam determinada função.
+                            Sistema pode ser definido como um conjunto de elementos interdependentes que interagem com 
+                            objetivos comuns formando um todo, e onde cada um dos elementos componentes comporta-se. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="d-2-culumns">
+                    
+                    <div class="text-font">
+                        <p>
+                            Por sua vez, como um sistema cujo resultado é maior do que o resultado que as unidades poderiam 
+                            ter se funcionassem independentemente. Qualquer conjunto de partes unidas entre si pode ser considerado 
+                            um sistema, desde que as relações entre as partes e o comportamento do todo sejam o foco de atenção.
+                            Sistema é um conjunto de partes coordenadas e não relacionadas, formando um todo complexo ou unitário.
+                        </p>
+                    </div>
+                    <div class="card ml-1 mr-1">
+                        <div class="urlImage contain" style="--urlImage: url('images/cerebroTGS.jpg')"></div>
+                    </div>
+                </div>
+            </section>
+
+<!-- ----------------------------------------------------------------------- -->
+<!--                            sessão de filmes                             -->
+<!-- ----------------------------------------------------------------------- -->
+            <section id="films" class="d-none animate">
+                <div class="ml-1 mr-1 identification-title">
+                    <div class="urlImage contain" style="--urlImage: url('images/filme.svg')"></div>
+                </div>
+                <div class="d-2-culumns">
+                    <div class="text-font">
+                        <p>
+                            Ao início, estudamos as teorias da administração e seus respectivos
+                            idealizadores, visando compreender os processos organizacionais 
+                            das empresa e meios públicos.
+                            Com um tema emparticular, participei de um grupo encarregado de apresentar
+                            a "Teoria Geral dos Sistemas", idealizada por Karl Ludwig von Bertalanffy,
+                            Biólogo austríaco e publicada entre 1950 e 1968.
+                        </p>
+                    </div>
+                    <div class="card ml-1 mr-1">
+                        <div class="urlImage" style="--urlImage: url('images/bertalanffy.png')"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p>COPYRIGHT © 2020 - Johnny Reberty, Todos os direitos Reservados</p>
+        </footer>
+    </section>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
